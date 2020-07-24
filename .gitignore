@@ -1,0 +1,9 @@
+.vs
+*.v2
+*.dll
+*.exe
+bin
+obj
+*[Nn][Cc][Rr][Uu][Nn][Cc][Hh]*
+*.user
+*.pubxml
