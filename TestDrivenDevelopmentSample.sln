@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDrivenDevelopmentSample", "TestDrivenDevelopmentSample\TestDrivenDevelopmentSample.csproj", "{24AF56A7-0E2C-4A67-863C-4A0CD8591210}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDrivenDevelopmentSample", "TestDrivenDevelopmentSample\TestDrivenDevelopmentSample.csproj", "{24AF56A7-0E2C-4A67-863C-4A0CD8591210}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppService", "AppService\AppService.csproj", "{610609B4-A209-46DD-BA1F-8FCA7E5F1AD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppService", "AppService\AppService.csproj", "{610609B4-A209-46DD-BA1F-8FCA7E5F1AD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Test", "App.Test\App.Test.csproj", "{E513A72D-99CE-4805-AFE5-BD759A31A3A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Test", "App.Test\App.Test.csproj", "{E513A72D-99CE-4805-AFE5-BD759A31A3A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{85AA4996-B390-4A9A-88CB-388E8B1180FE}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
