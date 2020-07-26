@@ -13,7 +13,7 @@ This project demonstrates some various "best-practices".
     - I initially formed this practice out of necessity to be able to unit test my projects using NCrunch, which often has issues with Client frameworks.
     - Aside from that I still believe this to be a good practice, as separting the Client presentation from the backend processing into separate projects makes it much easier to just swap out one client for another without having to rewrite the backend, since it's completely de-coupled.
 1. Because most of the code was written following test-driven development, and we made sure to go back and write tests for the small amount of code we didn't write tests for first, the AppService project has 100% unit testing code coverage.
-1. 
+1. Single-repsibility principle: Any class should only have one reason to change.
 
 
 The client project is not covered under any such unit tests. With this method of separation, the client app would be better served to be covered by integration tests, rather than any kind of unit testing, which was out of the scope of this demonstration.
